@@ -1,0 +1,20 @@
+//program to convert Fahrenheit to Celsius
+#include<iostream>
+using namespace std ;
+float d(int Fahrenheit);
+int main()
+{
+int Fahrenheit;
+float Celsius;
+cout<<"enter Fahrenheit"<<endl;
+cin>>Fahrenheit;
+Celsius=d(Fahrenheit);
+cout<<"celsius is"<<Celsius<<endl;
+return 0;
+}
+    
+float d(int Fahrenheit){
+float celsius ;
+celsius =0.555555*(Fahrenheit-32);
+return celsius ;
+}
