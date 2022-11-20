@@ -1,0 +1,25 @@
+//class object
+#include <iostream>
+using namespace std;
+//creating a class Area
+class Area {
+   public:
+   int length,breadth;
+   int area;
+
+ public:
+int setDim(){
+int length,breadth;
+cout<<"length"<<endl;
+breadth;{
+cout<<"breadth"<<endl;
+} 
+}
+};
+int main (){
+Area Area1;
+Area=(length*breadth);
+
+cout<<"area is;"<<endl;
+return 0;
+}
