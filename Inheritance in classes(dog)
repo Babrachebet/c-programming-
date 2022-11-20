@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+//base class
+class Animal {
+public:
+void eat () {
+cout <<"i can eat!"<<endl;
+}
+void sleep (){
+cout<<"i can sleep!"<<endl;
+}
+};
+
+//derived class
+class Dog: public Animal{
+public:
+void bark() {
+cout <<"i can bark woof woof!!"<<endl;
+}
+};
+
+int main(){
+//create object of the Dog class
+Dog dog1;
+//calling members of the base class
+dog1.eat();
+dog1.sleep();
+//calling member of the derived class
+dog1.bark();
+return 0;
+}
